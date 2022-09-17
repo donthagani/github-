@@ -1,0 +1,182 @@
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+ nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    
+    background-color: #FF6B6B;
+}
+nav ul{
+    float: right;
+    
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+   
+   
+}
+nav ul li a{
+     text-decoration: none;
+     padding: 0 30px;
+     font-size: 20px;
+     margin-right: 30px;
+     color: black;
+     font-weight: 200;
+}
+a:hover {
+    color: blue;
+}
+.logo{
+   margin-left: 35px;
+   font-size: 30px;
+   font-weight: bold;
+   
+}
+span{
+    color: white;
+    
+}
+.face{
+    background-color: #8D8DAA;
+    text-align: center;
+    padding: 100px 0;
+
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    padding-bottom:30px ;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.work-body{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#hedding{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.para{
+    padding: 7% 0;
+   
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+}
+.footer-bottom{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    text-align: center;
+    
+}
+.fa{
+  
+    padding: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-twitter{
+    color: white;
+}
+.fa-instagram{
+    color: red;
+}
+.foot{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.rowmargin{
+    margin: 100px 10px;
+    background-color: #2A0944;
+}
+.col{
+    margin: 30px 0;
+}
+
+
+/*drum kit?*/
+.body{
+    text-align: center;
+    background-color: #283149;
+    height:100vh;
+}
+#title{
+   padding: 30px 0;
+    font-size: 5rem;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    color: white;
+  
+}
+h2{
+    color: white;
+    font-size: 2rem;
+}
+.w {
+    background-image: url('images copy/tom1.png');
+}
+
+.a {
+ background-image: url('images copy/tom2.png');
+}
+
+.s {
+ background-image: url('images copy/tom3.png');
+}
+
+.d {
+ background-image: url('images copy/tom4.png');
+}
+
+.j {
+ background-image: url('images copy/crash.png');
+}
+
+.k {
+ background-image: url('images copy/kick.png');
+}
+
+.l {
+ background-image: url('images copy/snare.png');
+}
+.set{
+    margin: 10% auto;
+}
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
